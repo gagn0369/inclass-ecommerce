@@ -1,27 +1,24 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Buttons</title>
-  <link href="http://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
-  <link href="../css/typography.css" rel="stylesheet">
-   <link href="../css/list-group.css" rel="stylesheet">
-   <link href="../css/buttons.css" rel="stylesheet">
-</head>
+.media{
+	overflow: hidden;
+}
 
-<body>
+.media-img{
+	float:left;
+	margin: 0 1opx 0 0;
+}
 
-<h1>Media Objects</h1>
+.media-img-reversed{
+	float:right;
+	margin: 0 0 0 10px;
+}
 
-<div class="media">
-	<div class="media-img">
-		<img src="http://placehold.it/64x64" alt="">
-	</div>
-	<div class="media-body>"
-		<h2>Triceratops</h2>
-		<p> Words words words words words.</p>
-	</div>
-</div>
+.media-image-stacked{
+	float: none;
+	margin: 0;
+}
 
-</body>
-</html>
+.media-body{
+	overflow:hidden;
+}
+
+
